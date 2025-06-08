@@ -47,7 +47,7 @@ audio {
 #galeria img {
     max-width: 100%;
     height: auto;
-    border-radius: 35px;
+    border-radius: 10px;
 }
 
 /* Ajuste das legendas */
