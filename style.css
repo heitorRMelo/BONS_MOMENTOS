@@ -1,0 +1,53 @@
+:root {
+    --cor-principal: #008e97;
+    --cor-secundaria: #011820;
+    --cor-texto: #fff;
+}
+
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', bold, sans-serif;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+}
+
+#contador {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: var(--cor-principal);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Ajuste do reprodutor de áudio */
+audio {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Galeria com fotos e legendas */
+@media (max-width: 1000px) { /* Ajuste para celulares */
+    #galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2px; /* Espaçamento reduzido */
+    }
+
+    #galeria figure {
+        width: 48%; /* Exibe duas imagens por linha em telas pequenas */
+    }
+
+    #galeria img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    figcaption {
+        font-size: 12px; /* Ajusta tamanho da legenda para celular */
+        margin-top: 3px;
+    }
+}
+
