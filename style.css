@@ -41,7 +41,7 @@ audio {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 18%; /* Mantém 4 imagens por linha */
+    width: 50%; /* Mantém 4 imagens por linha */
 }
 
 #galeria img {
